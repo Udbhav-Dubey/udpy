@@ -1,0 +1,5 @@
+what=input("what is your name boy : ")
+print(what)
+print("it doesnt matter")
+n=int(input("what is n :"))
+print(n)
