@@ -1,0 +1,9 @@
+a=[]
+a.append(10)
+print(a)
+a.insert(0,5)
+print(a)
+a.extend([15,20])
+print(a)
+a.append(30)
+print(a)
