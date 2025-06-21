@@ -1,0 +1,15 @@
+tup=tuple('kakarot')
+print(tup)
+print(tup[0])
+print(tup[1:4])
+print(tup[:3])
+print(tup[::2])
+tup=("geeks","for","geeks")
+a,b,c=tup
+print(a)
+print(b)
+print(c)
+tup=("y2j","problem","is here")
+a,c=tup
+print(a)
+print(c)

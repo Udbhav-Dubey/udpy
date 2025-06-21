@@ -1,0 +1,6 @@
+tp1=(1,2,3)
+tp2=(4,5,6)
+tp3=(7,8,9)
+combined=zip(tp1,tp2,tp3)
+result=tuple(map(sum,combined))
+print(result)
