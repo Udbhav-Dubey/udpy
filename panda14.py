@@ -1,0 +1,10 @@
+import pandas as pd
+data=pd.read_csv("nba.csv")
+desc=data["Name"].describe()
+print(desc)
+print("describing salary only ")
+salary=data["Salary"].describe()
+print(salary)
+print("using all")
+desc_all=data.describe(include="all")
+print(desc_all)

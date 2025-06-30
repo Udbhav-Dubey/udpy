@@ -1,0 +1,10 @@
+import pandas as pd
+data=pd.read_csv("nba.csv")
+salary_name=data[['Name','Salary']].head()
+print("first 5 rows of names and colums : ")
+print(salary_name)
+sorted_data=data.sort_values(by='Age',ascending=True).head()
+#top_sorted=sorted_data.head(n=8)
+print("after sorting : ")
+#print(top_sorted)
+print(sorted_data)

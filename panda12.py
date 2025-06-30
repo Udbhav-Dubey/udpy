@@ -1,0 +1,12 @@
+import pandas as pd
+data=pd.read_csv("nba.csv")
+print("NBA dataset (last 5 Rows  ) : ")
+print(data.tail())
+series=data["Name"].tail(n=7)
+print("printing last 7 series : ")
+print(series)
+salary_name=data[["Name","Salary"]].tail(n=4)
+print("printing salary and name of bottom 4 : ")
+print(salary_name)
+sorted_data=data.sort_values(by="Age",ascending=False).tail(n=6)
+print(sorted_data)
