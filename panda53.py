@@ -1,0 +1,10 @@
+import pandas as pd
+data=pd.read_csv("nba.csv")
+data.sort_values("Team",axis=0,ascending=True,inplace=True)
+print(data)
+data.sort_values(["Team","Name"],axis=0,ascending=True,inplace=True)
+print(data)
+data.sort_values(["Team","Name"],axis=0,ascending=[True,False],inplace=True)
+print(data)
+data.sort_values(["Team","Name","Height"],axis=0,ascending=[True,False,False],inplace=True)
+print(data)
