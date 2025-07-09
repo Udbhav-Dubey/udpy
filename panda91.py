@@ -11,4 +11,6 @@ data_offset=pd.DateOffset(years=2,months=3,days=10)
 new_timestamp=timestamp+data_offset
 print(new_timestamp)
 # to print next 10
-
+next_10_period=[time_period+i for i in range(10)]
+for p in next_10_period:
+    print(p)
