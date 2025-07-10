@@ -1,0 +1,12 @@
+import pandas as pd
+s=pd.Series(['a1' ,'b2', 'c3'])
+print(s.str.extract(r'([ab])(\d)'))
+print(s.str.extract(r'([abc])(\d)'))
+print(s.str.extract(r'([bc])(\d)'))
+print(s.str.extract(r'([ac])(\d)'))
+print(s.str.extract(r'([\w])(\d)'))
+print()
+print()
+s = pd.Series(['Name: Alice, Age: 23', 'Name: Bob, Age: 30'])
+print(s.str.extract(r'Name: (\w+), Age: (\d+)'))
+print(s.str.extract(r'Name: (?P<name>\w+), Age: (?P<age>\d+)'))
