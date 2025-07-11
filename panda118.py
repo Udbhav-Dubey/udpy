@@ -1,0 +1,11 @@
+import pandas as pd
+df1 = pd.DataFrame({'Data': [11, 12, 13, 14]})
+df2 = pd.DataFrame({'Data': [21, 22, 23, 24]})
+df3 = pd.DataFrame({'Data': [31, 32, 33, 34]})
+df4 = pd.DataFrame({'Data': [41, 42, 43, 44]})
+writer=pd.ExcelWriter('pandas excel ki ladhai.xlsx',engine='xlsxwriter')
+df1.to_excel(writer,sheet_name='1')
+df2.to_excel(writer,sheet_name='1',startcol=3)
+df3.to_excel(writer,sheet_name='1',startrow=7)
+df4.to_excel(writer,sheet_name='1',startrow=7,startcol=8,header=False,index=False)
+writer.close()
