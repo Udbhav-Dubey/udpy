@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array([[1,2],[11,12]])
+b=np.array([[4,3],[44,33]])
+print("a : ",a)
+print("b : ",b)
+print("adding 1 number to every element : ",a+1)
+print("\nsubtracting 2 from each element :",b-2)
+print("\nsum of all array elements in a : ",a.sum())
+print("\nsum of all array elements in b : ",b.sum())
+print("\nArray sum : \n",a+b)

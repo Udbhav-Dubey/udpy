@@ -1,0 +1,17 @@
+import numpy as np
+x=np.array([1,2])
+print(x.dtype)
+x=np.array([1.1,2.2])
+print(x.dtype)
+x=np.array([1,2],dtype=np.int64)
+print(x.dtype)
+arr1=np.array([[4,6],[2,1]],dtype=np.float64)
+arr2=np.array([[3,5],[2,8]],dtype=np.float64)
+sum=np.add(arr1,arr2)
+print(sum)
+sum1=np.sum(arr1)
+print(sum1)
+sqrt=np.sqrt(arr1)
+print(sqrt)
+trans_arr=arr1.T
+print(trans_arr)
