@@ -9,7 +9,8 @@ def main():
     print("no of tracked objects before calling get method")
     print(len(gc.get_objects()))
     call()
-    print("no of tracked objects after calling get method")
+    gc.collect()
+    print("no of tracked objects after calling get method and gc.collect all non refrenced are deleted ")
     print(len(gc.get_objects()))
     
 if __name__=='__main__':

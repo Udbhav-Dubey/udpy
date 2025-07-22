@@ -1,0 +1,15 @@
+import numpy as np
+a=np.array([1,2])
+b=np.array([4,5])
+c=np.array([7,8])
+res=np.dstack((a,b,c))
+print(res)
+d=np.array([[1,2],[3,4]])
+e=np.array([[5,6],[7,8]])
+res=np.dstack((d,e))
+print(res)
+
+print("error:")
+a=np.array([1,2,3])
+b=np.array([4,5])
+res=np.dstack(a,b)
