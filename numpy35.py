@@ -1,0 +1,11 @@
+import numpy as np
+a=np.array([0,0,3,4,0,5,0,0])
+res=np.trim_zeros(a)
+print(res)
+res1=np.trim_zeros(a,trim='f')
+print(res1)
+res2=np.trim_zeros(a,trim='b')
+print(res2)
+a = np.array([0, 0, 0, 0])
+res = np.trim_zeros(a)
+print(res)
