@@ -1,7 +1,6 @@
 import requests
 
 def get_live_scores():
-    url = "https://cricket-live-score-api.vercel.app/cricket"
     try:
         response = requests.get(url)
         data = response.json()

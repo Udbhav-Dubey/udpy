@@ -1,7 +1,5 @@
 import requests
 
-API_KEY = "c67ed518-9f52-4320-ba9f-561e18d7ce6b"
-BASE_URL = "https://api.cricapi.com/v1"
 
 def get_live_matches():
     url = f"{BASE_URL}/currentMatches"

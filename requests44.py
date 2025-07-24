@@ -1,5 +1,4 @@
 import requests
-url="https://api.cricapi.com/v1/currentMatches?apikey=c67ed518-9f52-4320-ba9f-561e18d7ce6b&offset=0"
 r=requests.get(url)
 print(r.status_code)
 data=r.json()
