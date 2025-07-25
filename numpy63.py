@@ -1,0 +1,21 @@
+import numpy as np
+array=np.array(range(16))
+print("array is :")
+print(array)
+print("array is : ")
+n=array.size
+reshaped1=array.reshape(4,4)
+print(reshaped1)
+print("3d:")
+reshaped2=array.reshape(4,2,2)
+print(reshaped2)
+print("nd to 1d")
+reshaped3=reshaped2.reshape(16)
+print(reshaped3)
+print("reshaping with unkown diminsion 1d to 3d ")
+reshaped4=array.reshape((2,2,-1))
+print(reshaped4)
+print("reshaping with unkown dimisnion 1d to 2d")
+reshaped5=array.reshape((4,-1))
+print(reshaped5)
+

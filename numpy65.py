@@ -1,0 +1,10 @@
+import numpy as np
+arr1=np.array([[1,2,3,4],[2,3,4,5],[34,45,56,67]])
+print(arr1)
+print(arr1.shape)
+arr2=np.array([2,4,6,8,10],ndmin=6)
+print(arr2)
+print(arr2.shape,"\n")
+arr3=np.array([(1,2),(3,4),(5,6),(7,8)])
+print(arr3,"\n")
+print(arr3.shape)
