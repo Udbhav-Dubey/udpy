@@ -1,0 +1,42 @@
+# =========================
+# Jupyter Notebook files
+# =========================
+
+# Ignore Jupyter checkpoints everywhere
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Ignore untitled / scratch notebooks
+Untitled*.ipynb
+*Copy*.ipynb
+
+# Optional: ignore experimental panda notebooks if they are practice files
+panda*.ipynb
+
+# =========================
+# Python cache / artifacts
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Environment / OS files
+# =========================
+.env
+.venv
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+.idea/
+
